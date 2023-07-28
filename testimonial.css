@@ -1,0 +1,76 @@
+.back{
+    background-image:url("http://tk-themes.net/html-ivent/images/bg_testimonial.jpg") ;
+}
+                                                                                                                                                                                                                     .demo{ background: #6c6a6a; }
+.testimonial .pic{
+    width: 20%;
+    padding: 20px 20px;
+    float: left;
+    position: relative;
+    z-index: 1;
+
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+    border: 3px solid orange;
+
+
+}
+.testimonial .testimonial-content{
+    width: 70%;
+
+}
+.testimonial .title{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 20px;
+}
+.testimonial .post{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+}
+.testimonial .description{
+    font-size: 12px;
+    color: #fff;
+    position: relative;
+}
+.owl-theme .owl-controls{
+    position: relative;
+    bottom: 80px;
+padding-left: 10px;
+    padding-right: 460px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    width: 50px;
+    height: 60px;
+    line-height: 60px;
+    background: transparent;
+    border-color: white;
+    border-radius: 50%;
+    opacity: 1;
+    position: relative;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f177";
+    font-family: "fontawesome";
+    font-size: 30px;
+    font-weight: 300;
+    color: #ddd;
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+.owl-next:before{
+    content: "\f178";
+}
+/*for image round*/
+.round {
+    width: 100px;
+    border-radius: 100%;
+}
